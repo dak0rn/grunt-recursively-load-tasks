@@ -25,7 +25,7 @@ module.exports = function(grunt) {
         var target  = path.join(taskDir, td);
 
         if( grunt.file.exists(target) ) {
-            grunt.loadTasks(taskDir);
+            grunt.loadTasks(target);
             return;
         }
 
