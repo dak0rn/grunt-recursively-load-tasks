@@ -34,7 +34,7 @@ module.exports = function(grunt) {
     };
 
     // This function is exposed to grunt but only if it does not exist already
-    if( 'undefined' != typeof grunt.recursivelyLoadTasks )
+    if( 'undefined' === typeof grunt.recursivelyLoadTasks )
 
         grunt.recursivelyLoadTasks = function(task, directory, depth) {
             if( 'undefined' === typeof task ) {
