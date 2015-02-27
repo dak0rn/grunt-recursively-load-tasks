@@ -1,0 +1,25 @@
+{
+  "name": "grunt-recursively-load-tasks",
+  "version": "1.0.0",
+  "description": "A simple \"plugin\" for grunt that let's you load tasks recursively from parent directories",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dak0rn/grunt-recursively-load-tasks.git"
+  },
+  "keywords": [
+    "grunt",
+    "npm",
+    "tasks",
+    "plugin"
+  ],
+  "author": "dak0rn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dak0rn/grunt-recursively-load-tasks/issues"
+  },
+  "homepage": "https://github.com/dak0rn/grunt-recursively-load-tasks"
+}
