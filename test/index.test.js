@@ -29,5 +29,16 @@ describe('Exposed function', function(){
 		expect( grunt.recursivelyLoadTasks.length ).to.equal(3);
 
 	});
+	
+	it('should load correctly', function(done){
+
+		grunt.log.error = function() { done('failed'); };
+		grunt.loadTasks = function() { done(); };
+
+		// Locate outside of the project
+		grunt.recursivelyLoadTasks('grunt-dummy');
+
+
+	});
 
 });
